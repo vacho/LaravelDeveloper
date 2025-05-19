@@ -46,3 +46,7 @@ Route::get('/json', function () {
 });
 
 ```
+To show a "post view" create a blade file into resources\views\post.blade.php
+```html
+<p>Post {!! $id !!}</p>
+```
