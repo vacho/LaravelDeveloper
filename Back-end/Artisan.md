@@ -20,6 +20,9 @@ php artisan make:model Listing
 # Generate a factory
 php artisan make:factory ListingFactory
 
+# Generate a controller
+php artisan make:controller ListingController
+
 # Clear and recompile views
 php artisan view:clear
 php artisan cache:clear
