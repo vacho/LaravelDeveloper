@@ -23,6 +23,9 @@ php artisan make:factory ListingFactory
 # Generate a controller
 php artisan make:controller ListingController
 
+# Publish some vendor library to let edit
+php artisan vendor:publish
+
 # Clear and recompile views
 php artisan view:clear
 php artisan cache:clear
