@@ -26,6 +26,9 @@ php artisan make:controller ListingController
 # Publish some vendor library to let edit
 php artisan vendor:publish
 
+# Mate public some part of the store folder
+php artisan storage:link
+
 # Clear and recompile views
 php artisan view:clear
 php artisan cache:clear

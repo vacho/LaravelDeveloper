@@ -11,3 +11,9 @@ Clockwork: An utility to quickly review performance int the browser paths about 
 composer require itsgoingd/clockwork 
 ```
 
+Tinker: An command tool to whatch data relational from the DB
+```bash
+ php artisan tinker
+  $user = \App\Models\User::first()
+  $user->listings
+```bash
