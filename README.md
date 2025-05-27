@@ -1,2 +1,2 @@
 # LaravelDeveloper
-Laravel code snipets
+Laravel commands and code snipets
